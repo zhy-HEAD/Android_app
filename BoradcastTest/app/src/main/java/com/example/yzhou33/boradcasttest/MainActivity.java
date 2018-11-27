@@ -1,6 +1,7 @@
 package com.example.yzhou33.boradcasttest;
 
 import android.content.BroadcastReceiver;
+import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
@@ -8,6 +9,9 @@ import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
+import android.view.View;
+import android.widget.Button;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
@@ -22,6 +26,19 @@ public class MainActivity extends AppCompatActivity {
         intentFilter.addAction("android.net.conn.CONNECTIVITY_CHANGE");
         networkChangeReceiver = new NetworkChangeReceiver();
         registerReceiver(networkChangeReceiver,intentFilter);
+
+        Button button = (Button)findViewById(R.id.button);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent("com.example.boradcasttest.MY_BROADCAST");
+//                intent.setComponent(new ComponentName("com.example.yzhou33.boradcasttest","com.example.yzhou33.boradcasttest.MyReceiver"));
+                intent.setComponent(new ComponentName("com.example.yzhou33.boradcasttest","com.example.yzhou33.boradcasttest.MyBroadcastReceiver"));
+//                sendBroadcast(intent);
+                sendOrderedBroadcast(intent,null);
+                Log.d("123","com.example.yzhou33.boradcasttest.MY_BROADCAST");
+            }
+        });
     }
 
     @Override

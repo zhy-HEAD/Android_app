@@ -3,7 +3,7 @@
     package="com.example.yzhou33.boradcasttest">
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
 
     <application
         android:allowBackup="true"
@@ -20,12 +20,28 @@
             </intent-filter>
         </activity>
 
+           <receiver
+                  android:name=".BootCompleteReceiver"
+                  android:enabled="true"
+                  android:exported="true">
+                  <intent-filter>
+                      <action android:name="android.intent.action.BOOT_COMPLETED" />
+                  </intent-filter>
+              </receiver>
+              <receiver
+                  android:name=".MyBroadcastReceiver"
+                  android:enabled="true"
+                  android:exported="true">
+                  <intent-filter>
+                      <action android:name="com.example.boradcasttest.MY_BROADCAST" />
+                  </intent-filter>
+              </receiver>
         <receiver
-            android:name=".BootCompleteReceiver"
+            android:name=".MyReceiver"
             android:enabled="true"
             android:exported="true">
             <intent-filter>
-                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="com.example.boradcasttest.MY_BROADCAST" />
             </intent-filter>
         </receiver>
     </application>
