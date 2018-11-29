@@ -2,59 +2,137 @@
 <instant-run
     abi="armeabi-v7a,armeabi"
     api-level="21"
-    build-mode="HOT_WARM"
+    build-mode="FULL"
     density="mdpi"
     format="10"
     plugin-version="3.2.0"
-    timestamp="1543500735368"
+    timestamp="1543503613374"
     token="-3788093140586241189"
-    verifier="COMPATIBLE" >
+    verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="361" />
+        duration="2151" />
     <task
         name="instant-run-dex"
-        duration="11" />
+        duration="0" />
     <task
         name="instant-run-transform"
-        duration="63" />
+        duration="372" />
     <task
         name="verifier"
-        duration="4" />
+        duration="623" />
 
     <artifact
-        location="D:\Project-SI\project\LedApp\app\build\intermediates\reload-dex\debug\classes.dex"
-        type="RELOAD_DEX" />
+        location="D:\Project-SI\project\github\LedApp\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+        type="SPLIT" />
+    <artifact
+        location="D:\Project-SI\project\github\LedApp\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+        type="SPLIT" />
+    <artifact
+        location="D:\Project-SI\project\github\LedApp\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+        type="SPLIT" />
+    <artifact
+        location="D:\Project-SI\project\github\LedApp\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+        type="SPLIT" />
+    <artifact
+        location="D:\Project-SI\project\github\LedApp\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+        type="SPLIT" />
+    <artifact
+        location="D:\Project-SI\project\github\LedApp\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+        type="SPLIT" />
+    <artifact
+        location="D:\Project-SI\project\github\LedApp\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+        type="SPLIT" />
+    <artifact
+        location="D:\Project-SI\project\github\LedApp\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+        type="SPLIT" />
+    <artifact
+        location="D:\Project-SI\project\github\LedApp\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+        type="SPLIT" />
+    <artifact
+        location="D:\Project-SI\project\github\LedApp\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+        type="SPLIT" />
+    <artifact
+        location="D:\Project-SI\project\github\LedApp\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+        type="SPLIT" />
+    <artifact
+        location="D:\Project-SI\project\github\LedApp\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
+        type="SPLIT_MAIN" />
+    <artifact
+        location="D:\Project-SI\project\LedApp\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+        type="SPLIT" />
+    <artifact
+        location="D:\Project-SI\project\LedApp\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+        type="SPLIT" />
+    <artifact
+        location="D:\Project-SI\project\LedApp\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+        type="SPLIT" />
+    <artifact
+        location="D:\Project-SI\project\LedApp\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+        type="SPLIT" />
+    <artifact
+        location="D:\Project-SI\project\LedApp\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+        type="SPLIT" />
+    <artifact
+        location="D:\Project-SI\project\LedApp\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+        type="SPLIT" />
+    <artifact
+        location="D:\Project-SI\project\LedApp\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+        type="SPLIT" />
+    <artifact
+        location="D:\Project-SI\project\LedApp\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+        type="SPLIT" />
+    <artifact
+        location="D:\Project-SI\project\LedApp\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+        type="SPLIT" />
+    <artifact
+        location="D:\Project-SI\project\LedApp\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+        type="SPLIT" />
+    <artifact
+        location="D:\Project-SI\project\LedApp\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+        type="SPLIT" />
 
     <build
         build-mode="FULL"
-        timestamp="1543500478016"
+        timestamp="1543503613374"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="D:\Project-SI\project\LedApp\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+            location="D:\Project-SI\project\github\LedApp\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
             type="SPLIT" />
         <artifact
-            location="D:\Project-SI\project\LedApp\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            location="D:\Project-SI\project\github\LedApp\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
             type="SPLIT" />
         <artifact
-            location="D:\Project-SI\project\LedApp\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            location="D:\Project-SI\project\github\LedApp\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
             type="SPLIT" />
         <artifact
-            location="D:\Project-SI\project\LedApp\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            location="D:\Project-SI\project\github\LedApp\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
             type="SPLIT" />
         <artifact
-            location="D:\Project-SI\project\LedApp\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            location="D:\Project-SI\project\github\LedApp\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
             type="SPLIT" />
         <artifact
-            location="D:\Project-SI\project\LedApp\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            location="D:\Project-SI\project\github\LedApp\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
             type="SPLIT" />
         <artifact
-            location="D:\Project-SI\project\LedApp\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            location="D:\Project-SI\project\github\LedApp\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
             type="SPLIT" />
         <artifact
-            location="D:\Project-SI\project\LedApp\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            location="D:\Project-SI\project\github\LedApp\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
             type="SPLIT" />
+        <artifact
+            location="D:\Project-SI\project\github\LedApp\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            type="SPLIT" />
+        <artifact
+            location="D:\Project-SI\project\github\LedApp\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            type="SPLIT" />
+        <artifact
+            location="D:\Project-SI\project\github\LedApp\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            type="SPLIT" />
+        <artifact
+            location="D:\Project-SI\project\github\LedApp\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
+            type="SPLIT_MAIN" />
         <artifact
             location="D:\Project-SI\project\LedApp\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
             type="SPLIT" />
@@ -62,19 +140,32 @@
             location="D:\Project-SI\project\LedApp\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
             type="SPLIT" />
         <artifact
+            location="D:\Project-SI\project\LedApp\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            type="SPLIT" />
+        <artifact
+            location="D:\Project-SI\project\LedApp\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+            type="SPLIT" />
+        <artifact
+            location="D:\Project-SI\project\LedApp\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="D:\Project-SI\project\LedApp\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            type="SPLIT" />
+        <artifact
+            location="D:\Project-SI\project\LedApp\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            type="SPLIT" />
+        <artifact
             location="D:\Project-SI\project\LedApp\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
             type="SPLIT" />
         <artifact
-            location="D:\Project-SI\project\LedApp\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
-            type="SPLIT_MAIN" />
-    </build>
-    <build
-        build-mode="HOT_WARM"
-        timestamp="1543500735368"
-        verifier="COMPATIBLE" >
+            location="D:\Project-SI\project\LedApp\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            type="SPLIT" />
         <artifact
-            location="D:\Project-SI\project\LedApp\app\build\intermediates\reload-dex\debug\classes.dex"
-            type="RELOAD_DEX" />
+            location="D:\Project-SI\project\LedApp\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="D:\Project-SI\project\LedApp\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            type="SPLIT" />
     </build>
 
 </instant-run>

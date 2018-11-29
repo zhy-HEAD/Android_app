@@ -1,4 +1,4 @@
-#Thu Nov 29 22:08:02 CST 2018
-base.0=D\:\\Project-SI\\project\\LedApp\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\8
+#Thu Nov 29 23:00:29 CST 2018
+base.0=D\:\\Project-SI\\project\\github\\LedApp\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\8
 path.0=classes.dex
 renamed.0=classes.dex

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/BUTTON_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ALL ON"
+        android:textAllCaps="false"
+        android:textSize="30sp"></Button>
+    <Button
+        android:id="@+id/BUTTON_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ALL OFF"
+        android:textAllCaps="false"
+        android:textSize="30sp"/>
+
+    <android.support.v7.widget.AppCompatCheckBox
+        android:id="@+id/LED_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LED1"
+        android:textSize="40sp"/>
+    <android.support.v7.widget.AppCompatCheckBox
+        android:id="@+id/LED_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LED2"
+        android:textSize="40sp"/>
+    <android.support.v7.widget.AppCompatCheckBox
+        android:id="@+id/LED_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LED3"
+        android:textSize="40sp"/>
+    <android.support.v7.widget.AppCompatCheckBox
+        android:id="@+id/LED_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LED4"
+        android:textSize="40sp"/>
+
+</LinearLayout
+   >
