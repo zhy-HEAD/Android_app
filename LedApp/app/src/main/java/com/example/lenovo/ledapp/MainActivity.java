@@ -49,37 +49,35 @@ public class MainActivity extends AppCompatActivity implements CompoundButton.On
     }
     @Override
     public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-        if(isChecked) {
-            switch(buttonView.getId()){
-                case R.id.LED_1:
-                    if(isChecked == true){
-                        Log.d("123","Led1 true");
-                    }else{
-                        Log.d("123","Led1 false");
-                    }
-                    break;
-                case R.id.LED_2:
-                    if(isChecked == true){
-                        Log.d("123","Led2 true");
-                    }else{
-                        Log.d("123","Led1 false");
-                    }
-                    break;
-                case R.id.LED_3:
-                    if(isChecked == true){
-                        Log.d("123","Led3 true");
-                    }else{
-                        Log.d("123","Led1 false");
-                    }
-                    break;
-                case R.id.LED_4:
-                    if(isChecked == true){
-                        Log.d("123","Led4 true");
-                    }else{
-                        Log.d("123","Led1 false");
-                    }
-                    break;
-            }
+        switch(buttonView.getId()){
+            case R.id.LED_1:
+                if(isChecked == true){
+                    Log.d("123","Led1 true");
+                }else{
+                    Log.d("123","Led1 false");
+                }
+                break;
+            case R.id.LED_2:
+                if(isChecked == true){
+                    Log.d("123","Led2 true");
+                }else{
+                    Log.d("123","Led2 false");
+                }
+                break;
+            case R.id.LED_3:
+                if(isChecked == true){
+                    Log.d("123","Led3 true");
+                }else{
+                    Log.d("123","Led3 false");
+                }
+                break;
+            case R.id.LED_4:
+                if(isChecked == true){
+                    Log.d("123","Led4 true");
+                }else{
+                    Log.d("123","Led4 false");
+                }
+                break;
         }
     }
 }
